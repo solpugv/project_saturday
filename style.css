@@ -12,7 +12,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ===== Полупрозрачный математический фон ===== */
+
 
 body::before {
     content: "∫ x² dx   lim x→∞   f'(x)   π   ∑   √x   e^x   cos(x)   ∆y/∆x";
@@ -28,7 +28,7 @@ body::before {
     z-index: 0;
 }
 
-/* ================= HEADER ================= */
+
 
 header {
     position: sticky;
@@ -64,7 +64,7 @@ header {
     display: block;
 }
 
-/* SEARCH */
+
 
 .search {
     display: flex;
@@ -89,7 +89,7 @@ header {
     cursor: pointer;
 }
 
-/* MENU */
+
 
 .menu {
     display: flex;
@@ -106,7 +106,7 @@ header {
     color: #334155;
 }
 
-/* ================= MAIN ================= */
+
 
 main {
     display: flex;
@@ -116,7 +116,7 @@ main {
     z-index: 1;
 }
 
-/* LEFT BLOCK */
+
 
 .left_block {
     display: flex;
@@ -137,7 +137,7 @@ main {
     color: #475569;
 }
 
-/* ===== Glass-карточки курсов ===== */
+
 
 .tbl table {
     width: 100%;
@@ -160,7 +160,7 @@ main {
     color: #2563eb;
 }
 
-/* RIGHT BLOCK */
+
 
 .right_block {
     display: flex;
@@ -169,7 +169,7 @@ main {
     padding: 40px;
 }
 
-/* HERO */
+
 
 .sliderimage {
     height: 45%;
@@ -183,7 +183,7 @@ main {
     border-radius: 20px;
 }
 
-/* LOWER GLASS BLOCKS */
+
 
 .twoblocksunder {
     display: flex;
@@ -206,7 +206,7 @@ main {
     border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-/* IMAGE + TEXT */
+
 
 .imgandtext {
     display: flex;
@@ -235,7 +235,7 @@ main {
     color: #334155;
 }
 
-/* FOOTER */
+
 
 footer {
     display: flex;
@@ -261,7 +261,7 @@ footer {
     text-decoration: none;
 }
 
-/* RESPONSIVE */
+
 
 @media (max-width: 412px) {
     .left_block,
